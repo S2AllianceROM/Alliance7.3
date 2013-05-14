@@ -3279,7 +3279,7 @@
     invoke-virtual {v14, v15}, Landroid/view/View;->setAlpha(F)V
 
     .line 1427
-    const/high16 v15, -0x100
+    const/high16 v15, 0x0
 
     invoke-virtual {v14, v15}, Landroid/view/View;->setBackgroundColor(I)V
 
@@ -3329,7 +3329,7 @@
     invoke-virtual {v14, v15}, Landroid/view/View;->setAlpha(F)V
 
     .line 1436
-    const/high16 v15, -0x100
+    const/high16 v15, 0x0
 
     invoke-virtual {v14, v15}, Landroid/view/View;->setBackgroundColor(I)V
 
@@ -9593,7 +9593,7 @@
 
     const-string v10, "statusbar_color"
 
-    const/high16 v11, -0x100
+    const/high16 v11, 0x0
 
     move-object/from16 v0, v10
 

@@ -17,12 +17,12 @@
                             <com.android.systemui.statusbar.policy.ToggleSlider android:id="@id/auto_brightness" android:layout_width="fill_parent" android:layout_height="fill_parent" />
                         </FrameLayout>
                     </LinearLayout>
-                    <View android:background="#ff091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                    <View android:background="#00091a24" android:layout_width="fill_parent" android:layout_height="1.0dip" />
                 </LinearLayout>
                 <LinearLayout android:orientation="vertical" android:id="@id/noNotificationsTitle" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
                     <TextView android:id="@id/noNotificationsText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/status_bar_no_notifications_title" />
                 </LinearLayout>
-                <LinearLayout android:orientation="vertical" android:id="@id/onGoingCart" android:background="#ff293945" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/onGoingCart" android:background="#00293945" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
                     <TextView android:id="@id/onGoingNotificationText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
                 </LinearLayout>
                 <com.android.systemui.statusbar.policy.NotificationRowLayout android:id="@id/onGoingItems" android:layout_width="fill_parent" android:layout_height="wrap_content" systemui:rowHeight="@dimen/notification_row_min_height" />
@@ -40,7 +40,7 @@
     <com.android.systemui.statusbar.phone.CloseDragHandle android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/close" android:layout_width="fill_parent" android:layout_height="@dimen/tw_close_handle_height">
         <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/tw_close_handle_height" android:src="@drawable/tw_status_bar_close" android:scaleType="fitXY" />
-            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:gravity="center" android:layout_gravity="bottom" android:id="@id/carrier_label" android:layout_width="fill_parent" android:layout_height="@dimen/tw_close_handle_height" android:layout_marginBottom="18.0dip" />
+            <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Network" android:gravity="center" android:layout_gravity="bottom" android:id="@id/carrier_label" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="18.0dip" />
         </RelativeLayout>
     </com.android.systemui.statusbar.phone.CloseDragHandle>
 </FrameLayout>
